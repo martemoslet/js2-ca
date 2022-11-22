@@ -4,7 +4,8 @@
   "description": "A social media platform written with bootstrap and javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "bootstrap": "^5.2.3"
   },
   "devDependencies": {
+    "live-server": "^1.2.2",
     "sass": "^1.56.1"
   }
 }
