@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/martemoslet/js2-ca/issues"
   },
-  "homepage": "https://github.com/martemoslet/js2-ca#readme"
+  "homepage": "https://github.com/martemoslet/js2-ca#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
 }
