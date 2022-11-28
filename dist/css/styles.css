@@ -10769,5 +10769,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  --bs-body-font-family: "Montserrat", Verdana, Tahoma, sans-serif;
+}
 
 /*# sourceMappingURL=styles.css.map */
